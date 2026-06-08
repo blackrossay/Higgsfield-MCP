@@ -6,9 +6,9 @@
 
 > **TL;DR** — Datacenters are invisible. The infrastructure that powers modern AI — fiber, GPUs, cooling loops, telemetry — is breathtaking and completely unphotographable. So I generated it. One prompt. One CLI command. Eight seconds. Eight credits. And the entire toolchain runs on a corporate laptop where I can't install anything.
 >
-> Watch it: [`assets/anatomy-of-an-ai-token.mp4`](../assets/anatomy-of-an-ai-token.mp4)
+> Watch it: [`assets/anatomy-of-an-ai-token.mp4`](../../assets/anatomy-of-an-ai-token.mp4)
 
-![Anatomy of an AI Token — cinematic still](anatomy-poster.png)
+![Anatomy of an AI Token — datacenter aisle frame](anatomy-poster.jpg)
 
 ---
 
@@ -153,6 +153,9 @@ curl -fLso assets/anatomy-of-an-ai-token.mp4 "$URL"
 ```
 
 Done. **8.6 MB.** **8 credits.** **One human-readable command.**
+
+![GPU die ignites into a swarm of tokens — frame from second 6.5](anatomy-poster-end.jpg)
+*The model's interpretation of "the packet ignites and multiplies into a swarm of golden tokens." Tokens-as-gold-coins is a reading I didn't expect — and it's quietly perfect for an industry where token cost is the unit economics.*
 
 ### Prompt anatomy
 

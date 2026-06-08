@@ -6,6 +6,16 @@ The script bypasses the pitfalls that make the official `npm install -g @higgsfi
 
 ---
 
+## See it in action
+
+[![Anatomy of an AI Token — datacenter aisle frame](docs/article/anatomy-poster.jpg)](assets/anatomy-of-an-ai-token.mp4)
+
+**▶ [Watch the 8-second video](assets/anatomy-of-an-ai-token.mp4)** — *"Anatomy of an AI Token": a single continuous cinematic shot from keyboard → fiber → datacenter → GPU → generated face. Generated with this installer in one CLI command. **8 credits, ~3 minutes, zero admin rights.***
+
+📖 **Read the full story:** [Anatomy of an AI Token](docs/article/anatomy-of-an-ai-token.md) — the technical article walking through how this video was made, the failure modes the installer works around, and the prompt that produced the visual above.
+
+---
+
 ## What it does
 
 1. Downloads the **portable Node.js LTS** zip into your user profile (no installer, no admin).
