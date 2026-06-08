@@ -54,9 +54,12 @@ if (!res.ok) {
 }
 
 const data = JSON.parse(text);
+// dev.to's PUT response shape varies; infer publish state from the URL (drafts contain
+// "?preview=...") rather than relying on the `published` field which is sometimes absent.
+const looksPublic = typeof data.url === "string" && !data.url.includes("preview=");
 console.log("");
 console.log(`  id:        ${data.id}`);
-console.log(`  published: ${data.published}`);
+console.log(`  published: ${data.published ?? looksPublic}`);
 console.log(`  url:       ${data.url}`);
 console.log(`  reactions: ${data.public_reactions_count ?? 0}`);
 console.log("");
