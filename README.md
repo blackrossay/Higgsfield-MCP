@@ -93,6 +93,7 @@ $env:Path += ";$HOME\nodejs\node-v24.16.0-win-x64"
 
 - [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) — every failure mode this script bypasses, with the symptoms you would have seen
 - [docs/UNINSTALL.md](docs/UNINSTALL.md) — complete reversibility steps
+- [docs/article/anatomy-of-an-ai-token.md](docs/article/anatomy-of-an-ai-token.md) — companion article: an 8-second cinematic visualisation of the AI inference pipeline, generated end-to-end with this installer ([video](assets/anatomy-of-an-ai-token.mp4))
 
 ---
 
