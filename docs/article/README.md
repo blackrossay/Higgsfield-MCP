@@ -7,8 +7,9 @@ A companion technical article walking through how the video [`assets/anatomy-of-
 | File | Where to publish | Notes |
 |---|---|---|
 | [`anatomy-of-an-ai-token.md`](anatomy-of-an-ai-token.md) | This GitHub repo, docs | Canonical source. Full markdown with embedded images, code blocks, and tables. |
-| [`anatomy-of-an-ai-token.devto.md`](anatomy-of-an-ai-token.devto.md) | [dev.to](https://dev.to/new) | Has dev.to front-matter (`title`, `tags`, `cover_image`, `canonical_url`). Copy-paste the whole file into the editor — front-matter is parsed automatically. |
-| [`anatomy-of-an-ai-token.linkedin.md`](anatomy-of-an-ai-token.linkedin.md) | [LinkedIn long-form articles](https://www.linkedin.com/article/new) | Lean narrative version. Code blocks/tables flattened to prose. Hashtags at bottom. Cover image: upload `anatomy-poster.jpg` manually. |
+| [`anatomy-of-an-ai-token.devto.md`](anatomy-of-an-ai-token.devto.md) | [dev.to](https://dev.to/new) | Has dev.to front-matter (`title`, `tags`, `cover_image`, `canonical_url`). Copy-paste the whole file into the editor — front-matter is parsed automatically. **Published:** https://dev.to/blackrossay/anatomy-of-an-ai-token-how-i-generated-a-cinematic-visualisation-of-the-ai-inference-pipeline-from-1f8e |
+| [`anatomy-of-an-ai-token.linkedin.md`](anatomy-of-an-ai-token.linkedin.md) | [LinkedIn long-form articles](https://www.linkedin.com/article/new) | Lean narrative version. Code blocks/tables flattened to prose. Hashtags at bottom. Cover image: upload `anatomy-poster.jpg` manually. Includes back-link to the dev.to canonical. |
+| [`anatomy-of-an-ai-token.linkedin-feed.md`](anatomy-of-an-ai-token.linkedin-feed.md) | LinkedIn feed (the "Start a post" composer, not the article composer) | Two short variants (curiosity hook ~1,400 chars, provocative hook ~900 chars). Designed to drive traffic to the dev.to article so comments accumulate there. |
 
 ## Assets
 

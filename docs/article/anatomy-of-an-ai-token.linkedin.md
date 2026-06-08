@@ -2,9 +2,8 @@
 
 ### How I generated an 8-second cinematic visualisation of the AI inference pipeline — from a locked-down corporate laptop, behind Zscaler, with no admin rights.
 
----
-
-> **Format note for posting on LinkedIn:** LinkedIn long-form articles render headers, bold/italic, bullets, and images, but they **strip code blocks** and table formatting. Where this draft uses code blocks, paste them as **inline italics** or as a screenshot. Tables can be flattened to bullet points. Recommended cover image: `docs/article/anatomy-poster.jpg`. Recommended length: ~1,500 words — this draft is ~1,400. Suggested CTA at the end: a link to the GitHub repo and an invitation to drop a video in the comments.
+> 📖 **Full technical write-up + code blocks + comments on dev.to:** https://dev.to/blackrossay/anatomy-of-an-ai-token-how-i-generated-a-cinematic-visualisation-of-the-ai-inference-pipeline-from-1f8e
+> 🛠️ **Source repo (MIT):** https://github.com/blackrossay/Higgsfield-MCP
 
 ---
 
@@ -133,6 +132,9 @@ Clone it. Run the installer. Write your own prompt.
 Then drop me a video link in the comments — I want to see what AI infrastructure looks like through *your* lens.
 
 ---
+
+💬 **For the technical deep-dive — including the exact prompt, all three failure-mode diagnoses with code, and the dev.to comment thread — head to the canonical version:**
+https://dev.to/blackrossay/anatomy-of-an-ai-token-how-i-generated-a-cinematic-visualisation-of-the-ai-inference-pipeline-from-1f8e
 
 *Generated with `@higgsfield/cli` v0.1.40 on Google Veo 3.1 Lite. Installer is MIT-licensed. Not affiliated with Higgsfield AI.*
 
