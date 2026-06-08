@@ -11,9 +11,27 @@
  *
  * Requires: Node 18+ (uses global fetch). No npm dependencies.
  */
+import { spawnSync } from "node:child_process";
 import { readFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+
+// Corporate TLS-inspecting proxies (Zscaler, Netskope, etc.) re-sign certificates with a
+// private root CA that lives in the Windows trust store. Node ships its own CA bundle and
+// does NOT consult that store unless told to. If we hit the proxy without the right flag,
+// fetch() fails with UNABLE_TO_GET_ISSUER_CERT_LOCALLY. Self-heal by re-executing under
+// --use-system-ca (Node 22+) on the first run.
+if (!process.env._DEVTO_TLS_FIXED) {
+  const result = spawnSync(
+    process.execPath,
+    ["--use-system-ca", ...process.argv.slice(1)],
+    {
+      stdio: "inherit",
+      env: { ...process.env, _DEVTO_TLS_FIXED: "1", NODE_USE_SYSTEM_CA: "1" },
+    },
+  );
+  process.exit(result.status ?? 1);
+}
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const repoRoot = resolve(__dirname, "..");
