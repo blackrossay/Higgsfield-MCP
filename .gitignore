@@ -1,0 +1,10 @@
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+
+# Local CLI artifacts (in case install.ps1 is run inside the repo dir)
+vendor/
+hf.exe
+hf
+*.tar.gz
